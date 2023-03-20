@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <h1>Javascript Practice</h1>
+
+        <!-- The below example shows a button event which displays the current time -->
+
+        <button type="button" onclick="document.getElementById(`demo`).innerHTML = Date()">Click me to display Date and Time</button>
+        
+        <!-- The below example shows a buton event which displays whatever string is entered directly into the code -->
+
+        <button type="button" onclick="document.getElementById(`test2`).innerHTML = `this is a demo`">This is demo 2</button>
+
+        <button type="button" onclick="document.getElementById('demo3').innerHTML = `This is a js variable: ${demo3}`">Display your name</button>
+
+        <script>
+         demo3 = "Amy";
+        </script>
+                
+        <p id="demo"></p>
+                
+        <p id="test2"></p>
+
+        <p id="demo3"></p>
+
+        <h2></h2>
+    </body>
+</html>
