@@ -8,14 +8,18 @@
 
         <button type="button" onclick="document.getElementById(`demo`).innerHTML = Date()">Click me to display Date and Time</button>
         
-        <!-- The below example shows a buton event which displays whatever string is entered directly into the code -->
+        <!-- The below example shows a button event which displays whatever string is entered directly into the code -->
 
         <button type="button" onclick="document.getElementById(`test2`).innerHTML = `this is a demo`">This is demo 2</button>
 
         <button type="button" onclick="document.getElementById('demo3').innerHTML = `This is a js variable: ${demo3}`">Display your name</button>
 
+        <button type="button" onclick="document.getElementById('demo4').innerHTML = `${demo4}`">Display your chosen number</button>
+
         <script>
          demo3 = "Amy";
+         demo4 = prompt("What is your chosen number?");
+         
         </script>
                 
         <p id="demo"></p>
@@ -24,6 +28,57 @@
 
         <p id="demo3"></p>
 
-        <h2></h2>
+        <p id="demo4"></p>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Calculator</h2>
+
+        <button type="button" onclick="document.getElementById('number1').innerHTML = `${number1}`">1</button>
+        <button type="button" onclick="document.getElementById('number2').innerHTML = `${number2}`">2</button>
+        <button type="button" onclick="document.getElementById('number3').innerHTML = `${number3}`">3</button>
+        <button type="button" onclick="document.getElementById('number4').innerHTML = `${number4}`">4</button>
+        <button type="button" onclick="document.getElementById('number5').innerHTML = `${number5}`">5</button>
+        <button type="button" onclick="document.getElementById('number6').innerHTML = `${number6}`">6</button>
+        <button type="button" onclick="document.getElementById('number7').innerHTML = `${number7}`">7</button>
+        <button type="button" onclick="document.getElementById('number8').innerHTML = `${number8}`">8</button>
+        <button type="button" onclick="document.getElementById('number9').innerHTML = `${number9}`">9</button>
+        <button type="button" onclick="document.getElementById('number10').innerHTML = `${number10}`">10</button>
+
+        <button type="button" onclick="document.getElementById('multiply').innerHTML = `${multiply}`">*</button>
+        <button type="button" onclick="document.getElementById('divide').innerHTML = `${divide}`">/</button>
+        <button type="button" onclick="document.getElementById('add').innerHTML = `${add}`">+</button>
+        <button type="button" onclick="document.getElementById('subtract').innerHTML = `${subtract}`">-</button>
+
+        <script>
+            number1 = 1;
+            number2 = 2;
+            number3 = 3;
+            number4 = 4;
+            number5 = 5;
+            number6 = 6;
+            number7 = 7;
+            number8 = 8;
+            number9 = 9;
+            number10 = 10;
+            
+
+        </script>
+
+        <p id="number1"></p> <p id="add">  </p> <p id="subtract"> </p> <p id="multiply"> </p> <p id="divide"></p>
+        <p id="number2"></p>
+        <p id="number3"></p>
+        <p id="number4"></p>
+        <p id="number5"></p>
+        <p id="number6"></p>
+        <p id="number7"></p>
+        <p id="number8"></p>
+        <p id="number9"></p>
+        <p id="number10"></p>
+
     </body>
 </html>
